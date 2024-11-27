@@ -5,10 +5,14 @@ if st.button("❄️"):
     st.snow()
 if st.button("🎈"):
     st.balloons()
+stockx_url = "https://stockx.com/es-es/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found"
+image_url = "https://cdn.shopify.com/s/files/1/0094/6307/0798/files/How_To_Spot_Real_vs_Fake_Air_Jordan_1_Lost_Found_1024x1024_73f4a0d3-c097-473d-8b20-5b66494628bd.webp?v=1719399720"
+
 st.markdown(
     f"""
-    <a href="https://stockx.com/es-es/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found" target="_blank">
-        <img src="https://cdn.shopify.com/s/files/1/0094/6307/0798/files/How_To_Spot_Real_vs_Fake_Air_Jordan_1_Lost_Found_1024x1024_73f4a0d3-c097-473d-8b20-5b66494628bd.webp?v=1719399720" alt="Jordan 1 Lost and Found" style="width:200px;">
+    <a href="{stockx_url}" target="_blank">
+        <img src="{image_url}" alt="Jordan 1 Lost and Found" style="width:200px;">
     </a>
     """)
-st.write("[Puedes comprar Jordan 1 en:](https://www.nike.com/es/ y https://www.jdsports.es/)")
+
+st.write("Puedes comprar Jordan 1 en: https://www.nike.com/es/ y https://www.jdsports.es/")
