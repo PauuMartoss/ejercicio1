@@ -20,7 +20,7 @@ if st.button("+1"):
     st.session_state.contador += 1
 if st.button("-1"):
     st.session_state.contador -= 1
-st.write("Contador:"st.session_state.contador)
+st.write("Contador:" {st.session_state.contador})
 # Imagen con enlace (no va)
 # st.markdown(
 #     f"""
