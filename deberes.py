@@ -4,7 +4,7 @@ st.text("Si hablamos de leyendas del baloncesto, es imposible que no se nos veng
 if st.button("❄️"):
     st.snow()
 if st.button("🎈"):
-    st.balloonsw()
+    st.balloons()
 st.markdown(
     f"""
     <a href="{https://stockx.com/es-es/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found}" target="_blank">
