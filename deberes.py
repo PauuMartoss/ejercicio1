@@ -14,6 +14,13 @@ if st.button("Verde"):
 if st.button("Rojo"):
     st.write("🔴")
 
+if "contador" not in st.session_state:
+    st.session_state.contador = 0
+if st.button("+1"):
+    st.session_state.contador += 1
+if st.button("-1"):
+    st.session_state.contador -= 1
+st.write("Contador:"st.session_state.contador)
 # Imagen con enlace (no va)
 # st.markdown(
 #     f"""
