@@ -10,9 +10,9 @@ if st.button("❄️"):
 if st.button("🎈"):
     st.balloons()
 if st.button("Verde"):
-    st.write(🟢)
+    st.write("🟢")
 if st.button("Rojo"):
-    st.write(🔴)
+    st.write("🔴")
 
 # Imagen con enlace (no va)
 # st.markdown(
