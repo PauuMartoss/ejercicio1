@@ -11,15 +11,15 @@ if st.button("🎈"):
     st.balloons()
 
 # Imagen con enlace (no va)
-st.markdown(
-    f"""
-    stockx_url = "https://stockx.com/es-es/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found"
-    image_url = "https://cdn.shopify.com/s/files/1/0094/6307/0798/files/How_To_Spot_Real_vs_Fake_Air_Jordan_1_Lost_Found_1024x1024_73f4a0d3-c097-473d-8b20-5b66494628bd.webp?v=1719399720"
+# st.markdown(
+#     f"""
+#     stockx_url = "https://stockx.com/es-es/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found"
+#     image_url = "https://cdn.shopify.com/s/files/1/0094/6307/0798/files/How_To_Spot_Real_vs_Fake_Air_Jordan_1_Lost_Found_1024x1024_73f4a0d3-c097-473d-8b20-5b66494628bd.webp?v=1719399720"
 
-    <a href="{stockx_url}" target="_blank">
-        <img src="{image_url}" alt="Jordan 1 Lost and Found" style="width:200px;">
-    </a>
-    """)
+#     <a href="{stockx_url}" target="_blank">
+#         <img src="{image_url}" alt="Jordan 1 Lost and Found" style="width:200px;">
+#     </a>
+#     """)
 
 # Enlaces
 st.write("Puedes comprar Jordan 1 en: https://www.nike.com/es/ y https://www.jdsports.es/")
@@ -27,4 +27,4 @@ st.write("Puedes comprar Jordan 1 en: https://www.nike.com/es/ y https://www.jds
 # Alertas
 st.toast("Bienvenido a esta web, espero que te guste la historia de las Jordan 1 y la disfrutes")
 
-st.warning("X error")
+st.warning("❌ ERROR")
